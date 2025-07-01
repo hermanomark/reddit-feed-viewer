@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reddit Feed Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Mark's Reddit Feed Viewer</h1>
+      <form id="search-form">
+        <input type="text" id="subreddit-input" placeholder="Enter subreddit name (e.g. 'javascript')" required>
+        <button type="submit">Browse</button>
+      </form>
+      <div class="header-controls">
+        <div id="data-source-container"></div>
+        <div id="theme-toggle-container" class="theme-toggle"></div>
+      </div>
+    </div>
+  </header>
+  
+  <main class="container">
+    <div id="categories-container" class="categories-container">
+      <h2>Browse by Category</h2>
+      <div id="categories" class="categories"></div>
+    </div>
+    
+    <div id="active-feed" class="active-feed hidden"></div>
+    
+    <div id="results"></div>
+    <div id="loading" class="hidden">Loading...</div>
+    <div id="error" class="hidden"></div>
+  </main>
+
+  <script src="categories.js"></script>
+  <script src="theme.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

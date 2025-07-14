@@ -17,11 +17,11 @@ const CATEGORIES = [
   },
   {
     "theme": "Career/Finance",
-    "subreddits": ["r/JobsPhilippines", "r/phinvest", "r/phmoneysaving", "r/PHCreditCards", "r/taxPH"]
+    "subreddits": ["r/JobsPhilippines", "r/phinvest", "r/phmoneysaving", "r/PhJobHunter"]
   },
   {
     "theme": "Health/Lifestyle",
-    "subreddits": ["r/MentalHealthPH", "r/Phitness", "r/adultingph"]
+    "subreddits": ["r/Phitness", "r/adultingph"]
   },
   {
     "theme": "Relationships",
@@ -33,7 +33,7 @@ const CATEGORIES = [
   },
   {
     "theme": "Hobbies",
-    "subreddits": ["r/PHBoardGames", "r/PHikingAndBackpacking", "r/Halamanation"]
+    "subreddits": ["r/PHikingAndBackpacking", ]
   },
   {
     "theme": "City Subs",
@@ -42,5 +42,17 @@ const CATEGORIES = [
   {
     "theme": "Entertainment",
     "subreddits": ["r/DragRacePhilippines", "r/rupaulsdragrace"]
+  },
+  {
+    "theme": "Food/Drink",
+    "subreddits": ["r/PinoyFood", "r/PinoyBeverages"]
+  },
+  {
+    "theme": "Travel",
+    "subreddits": ["r/PhilippinesTravel", "r/PhilippinesTourism"]
+  },
+  {
+    "theme": "Programming/Tech",
+    "subreddits":  ["r/webdev", "r/learnprogramming", "r/PinoyProgrammer"]
   }
 ];
